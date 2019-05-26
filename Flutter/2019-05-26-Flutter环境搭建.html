@@ -6,15 +6,20 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives | Kris&#39;s blogs</title>
+  <title>Flutter环境搭建 | Kris&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Kris&#39;s blogs">
-<meta property="og:url" content="http://yoursite.com/archives/index.html">
+  <meta name="description" content="搭建Flutter开发环境搭建Flutter开发环境,有两部分:">
+<meta name="keywords" content="Flutter环境搭建">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Flutter环境搭建">
+<meta property="og:url" content="http://yoursite.com/Flutter/2019-05-26-Flutter环境搭建.html">
 <meta property="og:site_name" content="Kris&#39;s blogs">
+<meta property="og:description" content="搭建Flutter开发环境搭建Flutter开发环境,有两部分:">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-05-26T05:52:25.110Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Kris&#39;s blogs">
+<meta name="twitter:title" content="Flutter环境搭建">
+<meta name="twitter:description" content="搭建Flutter开发环境搭建Flutter开发环境,有两部分:">
   
     <link rel="alternative" href="/atom.xml" title="Kris&#39;s blogs" type="application/atom+xml">
   
@@ -140,36 +145,56 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-Flutter环境搭建" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/Flutter/2019-05-26-Flutter环境搭建.html" class="archive-article-date">
-  	<time datetime="2019-05-26T05:50:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-26</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/Flutter/2019-05-26-Flutter环境搭建.html">Flutter环境搭建</a>
+    <h1 class="article-title" itemprop="name">
+      Flutter环境搭建
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/Flutter/2019-05-26-Flutter环境搭建.html" class="archive-article-date">
+  	<time datetime="2019-05-26T05:50:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-26</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="搭建Flutter开发环境"><a href="#搭建Flutter开发环境" class="headerlink" title="搭建Flutter开发环境"></a>搭建Flutter开发环境</h1><h2 id="搭建Flutter开发环境-有两部分"><a href="#搭建Flutter开发环境-有两部分" class="headerlink" title="搭建Flutter开发环境,有两部分:"></a>搭建Flutter开发环境,有两部分:</h2><a id="more"></a>
+<ul>
+<li><p>Flutter SDK Flutter 开发需要安装Flutter SDK,这里会分别介绍Flutter SDK 在Windows、MacOS、Linux 三个平台上的安装过程。</p>
+</li>
+<li><p>Flutter IDE 安装Flutter SDK后,想要开发Flutter，还需要IDE，可以开发Flutter的IDE又两个：</p>
+<ul>
+<li>Android Studio</li>
+<li>VS Code</li>
+</ul>
+<p>这两个IDE，你可以根据自己的习惯选择一个</p>
+</li>
+</ul>
+<h2 id="配置Flutter中国镜像"><a href="#配置Flutter中国镜像" class="headerlink" title="配置Flutter中国镜像"></a>配置Flutter中国镜像</h2><p>中国镜像地址</p>
+<ul>
+<li>Flutter 社区<br>FLUTTER_STORAGE_BASE_URL: storage.flutter-io.cn PUB_HOSTED_URL: pub.flutter-io.cn</li>
+<li>上海交通大学 Linux 用户组 FLUTTER_STORAGE_BASE_URL: mirrors.sjtug.sjtu.edu.cn PUB_HOSTED_URL: dart-pub.mirrors.sjtug.sjtu.edu.cn</li>
+</ul>
+<p>flutter SDK安装 Flutter SDK下载地址:<a href="https://flutter.dev/docs/development/tools/sdk/releases?tab=windows" target="_blank" rel="noopener">https://flutter.dev/docs/development/tools/sdk/releases?tab=windows</a> 讲zip包解压到一个目录下</p>
+<ul>
+<li>设置Flutter SDK的环境变量 在用户变量下，选择 Path，点击编辑：如果已经存在 Path变量，则在原有的值后面先加 ;，然后将 Flutter SDK 的完整路径 E:\src\flutter\bin 添加上。 运行flutter doctor</li>
+<li>搭建Android 开发环境 下载并安装Android Studio,AS自带有安卓SDK Android Studio安装Flutter插件</li>
+</ul>
+
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -181,7 +206,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -194,44 +219,104 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/Flutter/2019-05-26-Flutter环境搭建.html" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/uncategorized/2019-05-26-hello.html" class="archive-article-date">
-  	<time datetime="2019-05-26T05:46:56.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-26</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/uncategorized/2019-05-26-hello.html" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">hello</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/uncategorized/2019-05-26-hello.html">hello</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -254,8 +339,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,

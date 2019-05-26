@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Dart基础语法 | Kris&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Dart基础语法">
-<meta name="keywords" content="dart基础">
+  <meta name="description" content="Dart基础语法12345678910111213141516171819202122232425262728293031323334// 导入库import &apos;package:flutter/material.dart&apos;;/** * 入口函数 */void main() =&amp;gt; runApp(MyApp());/** * 定义一个 MyApp Widget */class MyApp ext">
+<meta name="keywords" content="Dart基础">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Dart基础语法">
 <meta property="og:url" content="http://yoursite.com/Flutter/2019-05-26-Dart基础语法.html">
 <meta property="og:site_name" content="Kris&#39;s blogs">
-<meta property="og:description" content="Dart基础语法">
+<meta property="og:description" content="Dart基础语法12345678910111213141516171819202122232425262728293031323334// 导入库import &apos;package:flutter/material.dart&apos;;/** * 入口函数 */void main() =&amp;gt; runApp(MyApp());/** * 定义一个 MyApp Widget */class MyApp ext">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-26T04:47:54.394Z">
+<meta property="og:updated_time" content="2019-05-26T05:45:35.380Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Dart基础语法">
-<meta name="twitter:description" content="Dart基础语法">
+<meta name="twitter:description" content="Dart基础语法12345678910111213141516171819202122232425262728293031323334// 导入库import &apos;package:flutter/material.dart&apos;;/** * 入口函数 */void main() =&amp;gt; runApp(MyApp());/** * 定义一个 MyApp Widget */class MyApp ext">
   
     <link rel="alternative" href="/atom.xml" title="Kris&#39;s blogs" type="application/atom+xml">
   
@@ -158,23 +158,22 @@
 
         
         <a href="/Flutter/2019-05-26-Dart基础语法.html" class="archive-article-date">
-  	<time datetime="2019-05-26T04:40:48.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-26</time>
+  	<time datetime="2019-05-26T05:37:54.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-05-26</time>
 </a>
         
       </header>
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Dart基础语法"><a href="#Dart基础语法" class="headerlink" title="Dart基础语法"></a>Dart基础语法</h1><a id="more"></a>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 导入库</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">'package:flutter/material.dart'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 入口函数</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">void</span> main() =&gt; runApp(MyApp());</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 定义一个 MyApp Widget</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyApp</span> <span class="keyword">extends</span> <span class="title">StatelessWidget</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> content = <span class="string">'Dart 语法'</span>; <span class="comment">// 声明并初始化变量</span></span><br><span class="line">  <span class="built_in">String</span> _name = <span class="string">"by 小德"</span>;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Widget build(BuildContext context) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">'display <span class="subst">$content</span>'</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// return a Widget</span></span><br><span class="line">    <span class="keyword">return</span> MaterialApp(</span><br><span class="line">      title: <span class="string">"Flutter Demo"</span>,</span><br><span class="line">      theme: ThemeData(</span><br><span class="line">        primaryColor: Colors.blue,</span><br><span class="line">      ),</span><br><span class="line">      home: Scaffold(</span><br><span class="line">          appBar: AppBar(title: Text(<span class="string">"Flutter Dart 语法"</span>)),</span><br><span class="line">          body: Text(content+_name)</span><br><span class="line">          ),</span><br><span class="line">    );</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+        <h1 id="Dart基础语法"><a href="#Dart基础语法" class="headerlink" title="Dart基础语法"></a>Dart基础语法</h1><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 导入库</span></span><br><span class="line"><span class="keyword">import</span> <span class="string">'package:flutter/material.dart'</span>;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 入口函数</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">void</span> main() =&gt; runApp(MyApp());</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 定义一个 MyApp Widget</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyApp</span> <span class="keyword">extends</span> <span class="title">StatelessWidget</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">var</span> content = <span class="string">'Dart 语法'</span>; <span class="comment">// 声明并初始化变量</span></span><br><span class="line">  <span class="built_in">String</span> _name = <span class="string">"by 小德"</span>;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Widget build(BuildContext context) &#123;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">print</span>(<span class="string">'display <span class="subst">$content</span>'</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">// return a Widget</span></span><br><span class="line">    <span class="keyword">return</span> MaterialApp(</span><br><span class="line">      title: <span class="string">"Flutter Demo"</span>,</span><br><span class="line">      theme: ThemeData(</span><br><span class="line">        primaryColor: Colors.blue,</span><br><span class="line">      ),</span><br><span class="line">      home: Scaffold(</span><br><span class="line">          appBar: AppBar(title: Text(<span class="string">"Flutter Dart 语法"</span>)),</span><br><span class="line">          body: Text(content+_name)</span><br><span class="line">          ),</span><br><span class="line">    );</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ul>
 <li><p><code>import</code></p>
 <p>导入库</p>
 </li>
-<li><p>注释</p>
+<li><p><code>注释</code></p>
 <p>注释有两种方式</p>
-<p>| 语法       | 含义     |<br>| ———- | ——– |<br>| /<strong> .. </strong>/ | 多行注释 |<br>| //         | 单行注释 |</p>
-</li>
+<p>| 语法   | 含义     |<br>| —— | ——– |<br>| //     | 单行注释 |<br>| /<em>**</em>/ | 多行注释 |</p>
+<ul>
 <li><p><code>=》</code></p>
 <p>Dart的箭头语法,即Lambda表达式。</p>
 </li>
@@ -200,13 +199,14 @@
 <p>字符串插值:将变量的值直接插入字符串中。</p>
 </li>
 </ul>
-<h2 id="变量声明"><a href="#变量声明" class="headerlink" title="变量声明"></a>变量声明</h2><p>一下是Dart中所有变量声明的方法:</p>
+<h2 id="变量声明"><a href="#变量声明" class="headerlink" title="变量声明"></a>变量声明</h2><p>​    以下是Dart中所有变量声明的方法:</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> content = <span class="string">'Dart 语法'</span>; <span class="comment">// Declare and initialize a variable.</span></span><br><span class="line"><span class="keyword">var</span> switchOn = <span class="keyword">false</span>;</span><br><span class="line"><span class="keyword">var</span> current = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">String</span> name = <span class="string">"by 小德"</span>;</span><br><span class="line"><span class="built_in">int</span> count = <span class="number">0</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">dynamic</span> example = <span class="string">'example'</span>;</span><br><span class="line"></span><br><span class="line"><span class="built_in">Object</span> index = <span class="number">100</span>;</span><br></pre></td></tr></table></figure>
-<p>​    总共有四种:</p>
+<p>总共有四种:</p>
 <ul>
 <li><p><code>var</code></p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> content = <span class="string">'Dart 语法'</span>; <span class="comment">// Declare and initialize a variable.</span></span><br><span class="line"><span class="keyword">var</span> switchOn = <span class="keyword">false</span>;</span><br><span class="line"><span class="keyword">var</span> current = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
-<p>使用var来声明变量，不需要特别指定变量的数据类型，因为Dart会自动腿短其数据类型，所以可以使用var来定义任何的变量。</p>
+<ul>
+<li><p>使用var来声明变量，不需要特别指定变量的数据类型，因为Dart会自动腿短其数据类型，所以可以使用var来定义任何的变量。</p>
 <p>问题来了，var 为什么能定义所有的变量?</p>
 <blockquote>
 <p>因为 ，var 并不是直接存储值，而是存储的值的对象的引用，例如：var content = ‘Dart 语法’ 这句，是名字为 content 的 var 变量存储了值为 ‘Dart 语法’ 的 String 对象的引用，所以 var 才能定义任何变量。</p>
@@ -215,9 +215,10 @@
 <li><p>明确数据类型</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">String</span> name = <span class="string">"by 小德"</span>;</span><br><span class="line"><span class="built_in">int</span> count = <span class="number">0</span>;</span><br></pre></td></tr></table></figure>
 </li>
-<li><p>dynamic</p>
+<li><p><code>dynamic</code></p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">dynamic</span> example = <span class="string">'example'</span>;</span><br></pre></td></tr></table></figure>
-<p>意思是数据类型是动态可变的，也可以定义任何变量，但是和 <code>var</code> 不同的是，<code>var</code> 一旦赋值后，就不能改变数据类型了，例如以下用法就是错误的</p>
+<ul>
+<li><p>意思是数据类型是动态可变的，也可以定义任何变量，但是和 <code>var</code> 不同的是，<code>var</code> 一旦赋值后，就不能改变数据类型了，例如以下用法就是错误的</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> content = <span class="string">'Dart 语法'</span>;</span><br><span class="line">content = <span class="number">1</span>; <span class="comment">//❌ 错误的使用方法，content为String，不能赋值数字类型</span></span><br></pre></td></tr></table></figure>
 <p>但是dynamic就可以,dynamic可以这么使用：</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">dynamic</span> example = <span class="string">'example'</span>;</span><br><span class="line">example = <span class="number">1</span>;<span class="comment">//✅  这个使用方法正确，因为 dynamic 的类型是动态可变的</span></span><br></pre></td></tr></table></figure>
@@ -229,7 +230,8 @@
 <blockquote>
 <p>注意:请不要滥用dynamic，一般情况下都可以用Object代替dynamic。</p>
 </blockquote>
-<p>哪什么情况下可以用dynamic哪？</p>
+<ul>
+<li><p>哪什么情况下可以用dynamic哪？</p>
 <blockquote>
 <p>当这个变量没法用Dart的类型来表示时，比如Native和Flutter交互，从Native传来的数据。所以你会看到PlatformChannel里很多地方使用到了dynamic。</p>
 </blockquote>
@@ -251,161 +253,34 @@
 <blockquote>
 <p>const是编译时常量，在编译的时候就初始化了，但是final变量是当类创建的时候才初始化</p>
 </blockquote>
-<h2 id="Dart支持的数据类型"><a href="#Dart支持的数据类型" class="headerlink" title="Dart支持的数据类型"></a>Dart支持的数据类型</h2><p>Dart支持以下的数据类型:</p>
-<p>|          | 含义                                                         | 使用                                                         |<br>| ——– | ———————————————————— | ———————————————————— |<br>| <code>int</code>    | 整数，范围为 -2^63 到 2^63 - 1.                              | int x = 1;//没有小数点就是int                                |<br>| <code>double</code> | 浮点数，64位（双精度）浮点数                                 | double y = 1.1;//有小数点就是浮点数                          |<br>| <code>num</code>    | num 是数字类型，既可以表示整数，也可以表示浮点数，具体看赋的值 | num x = 1;//num x是整数 num y = 1.1;//num y是浮点数          |<br>| <code>String</code> | 字符串 Dart字符串采用UTF-16编码 可以使用单引号或双引号来创建字符串 | var s1 = ‘string’; var s2 = “string”;                        |<br>| <code>bool</code>   | 布尔值                                                       | var isTrue = true;                                           |<br>| <code>List</code>   | List E 表示 List 里的数据类型 用中括号来赋值                 | List list = [1, 2, 3];                                       |<br>| <code>Set</code>    | Set E 表示 Set 里的数据类型 用大括号来赋值                   | Set halogens = {‘fluorine’, ‘chlorine’, ‘bromine’, ‘iodine’, ‘astatine’}; |<br>| <code>Map</code>    | Map&lt;K, V&gt; K 是 Key 的数据类型,V是 Value 的数据类型           | Map&lt;String,String&gt; gifts = { // Key: Value 格式 ‘first’: ‘partridge’, ‘second’: ‘turtledoves’, ‘fifth’: ‘golden rings’}; |<br>| <code>Runes</code>  | 表示采用 UTF-32 的字符串，用于显示 Unicode 因为Dart字符串是UTF-16，因此在Dart中表示32位的Unicode值需要Runes这个特殊语法。 | Runes input = new Runes(‘\u{1f600}’); print(new String.fromCharCodes(input)); 打印出来的是笑脸emoji：😆 |</p>
-<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><p>在Dart中函数也是对象，函数的类型是<code>function</code>。</p>
-<h3 id="写一个函数"><a href="#写一个函数" class="headerlink" title="写一个函数"></a>写一个函数</h3><p>函数按照如下的格式来写</p>
-<hr>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">返回类型 函数名(函数参数)&#123;</span><br><span class="line">    </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这里写一个名叫say的函数：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">bool</span> say(<span class="built_in">String</span> msg, <span class="built_in">String</span> from, <span class="built_in">int</span> clock)&#123;</span><br><span class="line">    <span class="built_in">print</span>(msg+<span class="string">"from"</span>+ from + <span class="string">"at"</span> + clock?.toString());</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>函数的类型:<code>Function</code></p>
-<p>上面写了一个函数say，写出如下的代码，判断函数say的类型是不是<code>Function</code>:</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(say <span class="keyword">is</span> <span class="built_in">Function</span>)</span><br></pre></td></tr></table></figure>
-<p>输出的是 true。</p>
-<p>而且请注意，这里在判断函数的类型的时候，直接用的是函数的名字，也就是说函数的名字就像变量名一样可以直接拿来使用，当直接用函数名来使用时，就是一个对象，其类型是 Function，要调用这个函数的话，就需要传入参数来使用，下面是使用函数的方法：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">say(<span class="string">'Hello Flutter'</span>，<span class="string">'XiaoDe'</span>,<span class="number">10</span>);</span><br></pre></td></tr></table></figure>
-<h3 id="函数的参数-必选参数和可选参数"><a href="#函数的参数-必选参数和可选参数" class="headerlink" title="函数的参数: 必选参数和可选参数"></a>函数的参数: 必选参数和可选参数</h3><p>函数的参数分为两类：</p>
-<ul>
-<li>必选参数</li>
-<li>可选参数</li>
-</ul>
-<p>必选参数是必填的，可选参数是选填的。</p>
-<p>哪如何知道参数是必选还是可选的哪？</p>
-<blockquote>
-<p>首先必选参数在前面，和普通的参数定义一样，后面跟可选参数，可选参数用{}或[]抱起来，用不同的括号，可选参数的意义与用法也不同。</p>
-</blockquote>
-<p>必选参数就是使用平常的方法定义的函数参数，如下面的函数：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">bool</span> say(<span class="built_in">String</span> msg, <span class="built_in">String</span> from, <span class="built_in">int</span> clock)&#123;</span><br><span class="line">    <span class="built_in">print</span>(msg+<span class="string">" from "</span> + from + <span class="string">" at "</span> + clock?.toString());</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>say函数有三个参数: msg from clock，这三个参数都是必选参数</p>
-<blockquote>
-<p>必选参数必须放在参数的前面。</p>
-</blockquote>
-<p>可选参数</p>
-<p>可选参数分为两类:</p>
-<ul>
-<li>可选命名参数：使用<code>{}</code>包起来的参数是可选命名参数</li>
-<li>可选位置参数：使用<code>[]</code>抱起来的参数是可选位置参数</li>
-</ul>
-<p>可选命名参数：<code>{}</code></p>
-<p>用 <code>{}</code> 包起来的参数是<strong>可选命名参数</strong>，前面讲数据类型的时候，使用 <code>{}</code> 来赋值的数据类型是 Map，所以可选的命名参数的类型也是 Map， 因此调用函数时，可选参数的赋值必须是 <code>paramName: value</code> 这种 <code>key: value</code> 格式的，下面是可选命名参数的例子：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">bool</span> say(<span class="built_in">String</span> msg , &#123;<span class="built_in">String</span> from, <span class="built_in">int</span> clock&#125;)&#123;</span><br><span class="line">    <span class="built_in">print</span>(msg+<span class="string">" from "</span> + from + <span class="string">" at "</span> + clock.toString());</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这里参数from就是可选命名参数。</p>
-<p>要调用<code>say</code>函数，方法如下：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">say(<span class="string">'Hello Flutter'</span>);<span class="comment">//✅ 因为 from 和 clock 是可选参数，所以可以不填</span></span><br><span class="line">    </span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,from: <span class="string">'XiaoMing'</span>);<span class="comment">//对 用命名参数格式 paramName: value 为 from 赋值</span></span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,clock: <span class="number">11</span>);<span class="comment">//✅</span></span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,from: <span class="string">'XiaoMing'</span>,clock: <span class="number">11</span>);<span class="comment">//✅</span></span><br></pre></td></tr></table></figure>
-<p>同时还可以给命名参数加 <code>@required</code> ，意思是这个也是必填参数，例子如下：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">bool</span> say(<span class="built_in">String</span> msg , &#123;<span class="meta">@required</span> <span class="built_in">String</span> from, <span class="built_in">int</span> clock&#125;)&#123;</span><br><span class="line">    <span class="built_in">print</span>(msg+<span class="string">" from "</span> + from + <span class="string">" at "</span> + clock.toString());</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<p>这里调用<code>say</code>函数，方法如下:</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">say(<span class="string">'Hello Flutter'</span>);<span class="comment">//❌  错误调用方式，因为 from 是必选参数，不填的话会报错</span></span><br><span class="line">    </span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,from: <span class="string">'XiaoMing'</span>);<span class="comment">//✅ 正确调用方式</span></span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,from: <span class="string">'XiaoMing'</span>,clock: <span class="number">11</span>);<span class="comment">//✅ 这个调用方式也是正确的</span></span><br></pre></td></tr></table></figure>
-<p>可选位置参数：<code>[]</code></p>
-<p>用 <code>[]</code> 包起来的参数是<strong>可选位置参数</strong>，前面讲数据类型的时候，使用 <code>[]</code> 来赋值的数据类型是 List，所以可选的命名参数的类型也是 List，所以赋值和参数是一一对应的，下面是可选位置参数的例子：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">bool</span> say(<span class="built_in">String</span> msg , [<span class="built_in">String</span> from , <span class="built_in">int</span> clock])&#123;</span><br><span class="line">    <span class="built_in">print</span>(msg+<span class="string">" from "</span> + from + <span class="string">" at "</span> + clock.toString());</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>要给可选位置参数赋值时，必选按照顺序来赋值：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">say(<span class="string">'Hello Flutter'</span>);<span class="comment">//✅ 因为 from 和 clock 是可选参数，所以可以不填</span></span><br><span class="line">    </span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,<span class="string">'XiaoMing'</span>,<span class="number">1</span>);<span class="comment">//✅ 为可选位置参数赋值，只能一个参数一个参数对应的赋值，所以要全部赋值</span></span><br><span class="line">    </span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,<span class="string">'XiaoMing'</span>)<span class="comment">//✅</span></span><br><span class="line">say(<span class="string">'Hello Flutter'</span>,<span class="number">1</span>)<span class="comment">//❌ 因为  1 赋值给了 from,但是 from 是String，所以会报错</span></span><br></pre></td></tr></table></figure>
-<h4 id="可选参数的默认值-："><a href="#可选参数的默认值-：" class="headerlink" title="可选参数的默认值 ：="></a>可选参数的默认值 ：<code>=</code></h4><p>因为参数是可选的，那么参数的值很可能没有赋值，就是 null ，用到的时候就有可能会触发 NPE，所以可以给可选参数赋默认值。</p>
-<p>使用 <code>=</code> 为可选参数赋默认值</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">bool</span> say(<span class="built_in">String</span> msg , &#123;<span class="built_in">String</span> from = <span class="string">'empty'</span>, <span class="built_in">int</span> clock = <span class="number">0</span>&#125;)&#123;</span><br><span class="line">     <span class="built_in">print</span>(msg+<span class="string">" from "</span> + from + <span class="string">" at "</span> + clock.toString());</span><br><span class="line">     <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line"> &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="gt-：箭头语法"><a href="#gt-：箭头语法" class="headerlink" title="=&gt; ：箭头语法"></a><code>=&gt;</code> ：箭头语法</h2><p><code>=&gt;</code> 语法是 <code>{ return expr; }</code> 的简写，因为 <code>=&gt;</code> 酷似箭头，也称箭头语法,也是 Lambda 表达式。</p>
-<blockquote>
-<p>=&gt; 语句后面只能跟一行代码，而且这一行代码只能一个表达式，而不能跟语句。表达式可以是函数、值。</p>
-</blockquote>
-<p>例如，main()函数这里:</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> main() =&gt; runApp(MyApp());</span><br></pre></td></tr></table></figure>
-<p>就等价于：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> main()&#123;</span><br><span class="line">    <span class="keyword">return</span> runApp(MyApp());<span class="comment">//runApp() 返回的是 void</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h2 id="类"><a href="#类" class="headerlink" title="类"></a>类</h2><p>Dart 中每个对象都是一个类的实例，所有类都继承自 Object。</p>
-<h4 id="自定一个类"><a href="#自定一个类" class="headerlink" title="自定一个类"></a>自定一个类</h4><p>如下，我定义一个类 Point：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">  <span class="built_in">num</span> x, y;</span><br><span class="line"></span><br><span class="line">  Point(<span class="built_in">num</span> x, <span class="built_in">num</span> y) &#123;</span><br><span class="line">    <span class="comment">// There's a better way to do this, stay tuned.</span></span><br><span class="line">    <span class="keyword">this</span>.x = x;</span><br><span class="line">    <span class="keyword">this</span>.y = y;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<h4 id="默认构造函数的写法"><a href="#默认构造函数的写法" class="headerlink" title="默认构造函数的写法"></a>默认构造函数的写法</h4><p>默认的构造函数就是使用类名作为函数名的构造函数，例如上面写的类 Point 的构造函数：Point(num x,num y)</p>
-<h4 id="构造函数的语法糖-注释"><a href="#构造函数的语法糖-注释" class="headerlink" title="构造函数的语法糖[^注释]"></a>构造函数的语法糖[^注释]</h4><p>[^注释]: 也称糖衣语法，是由英国计算机学家 Peter.J.Landin 发明的一个术语，指在计算机语言中添加的某种语法，这种语法对语言的功能并没有影响，但是更方便程序员使用。简而言之，语法糖让程序更加简洁，有更高的可读性。</p>
-<p>Dart 里还有构造函数的语法糖，可以将构造函数改造为：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Point(<span class="keyword">this</span>.x, <span class="keyword">this</span>.y);</span><br></pre></td></tr></table></figure>
-<p>这样 Point 类就可以简化为：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Point</span> </span>&#123;</span><br><span class="line">  <span class="built_in">num</span> x,y;</span><br><span class="line">  Point(<span class="keyword">this</span>.x, <span class="keyword">this</span>.y);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>这个语法糖会简化构造函数的赋值操作。</p>
-<h4 id="Widget-构造函数参数采用的是可选命名参数"><a href="#Widget-构造函数参数采用的是可选命名参数" class="headerlink" title="Widget 构造函数参数采用的是可选命名参数"></a>Widget 构造函数参数采用的是可选命名参数</h4><p>因为 Widget 构造函数有很多参数，为了使用起来清晰，Widget 构造函数的参数采用的是可选命名参数。</p>
-<p>后面会经常用到。</p>
-<h4 id="创建实例：不需要使用-new"><a href="#创建实例：不需要使用-new" class="headerlink" title="创建实例：不需要使用 new"></a>创建实例：不需要使用 new</h4><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Point point = Point(<span class="number">0</span>,<span class="number">0</span>);</span><br></pre></td></tr></table></figure>
-<p>创建类实例的时候，都要写 new，其实很麻烦的，而且也没有必要，所以 Dart 在创建实例的时候不在需要使用 new 。</p>
-<h4 id="使用类的变量"><a href="#使用类的变量" class="headerlink" title="使用类的变量"></a>使用类的变量</h4><p>使用点 <code>.</code> 来引用实例变量或方法：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">print</span>(p.x);</span><br></pre></td></tr></table></figure>
-<h2 id="操作符"><a href="#操作符" class="headerlink" title="操作符"></a>操作符</h2><p>Dart 中定义了很多的操作符，分为以下几类：</p>
-<ol>
-<li>算术运算符</li>
-<li>比较操作符</li>
-<li>类型判断符</li>
-<li>赋值操作符</li>
-<li>逻辑运算符</li>
-<li>按位与移位运算符</li>
-<li>条件运算符</li>
-<li>级联操作符</li>
-<li>其他操作符</li>
-</ol>
-<h4 id="1-算术运算操作符"><a href="#1-算术运算操作符" class="headerlink" title="1. 算术运算操作符"></a>1. 算术运算操作符</h4><p>下面是 Dart 支持的常见的算术运算操作符：</p>
-<p>| 操作符   | 含义         | 例子                                                |<br>| ——– | ———— | ————————————————— |<br>| <code>+</code>      | 加           | var a = 2 + 3;                                      |<br>| <code>-</code>      | 减           | var a = 2 - 3;                                      |<br>| <code>-exper</code> | 负数         | var a = -1;                                         |<br>| <code>*</code>      | 乘           | var a = 2 * 3;                                      |<br>| <code>/</code>      | 除，精确除法 | var a = 5 / 2; // a的结果为 2.5                     |<br>| <code>~/</code>     | 整除         | var a = 5 ~/ 2; // a的结果为 2                      |<br>| <code>%</code>      | 取余         | var a = 5 % 2; // a的结果为 1                       |<br>| <code>++var</code>  |              | var a = 1; var b = ++a;// b 的结果为 2,a 的结果为 2 |<br>| <code>var++</code>  |              | var a = 1; var b = a++;// b 的结果为 1,a 的结果为 2 |<br>| <code>--var</code>  |              | var a = 1; var b = –a;// b 的结果为 0,a 的结果为 0 |<br>| <code>var--</code>  |              | var a = 1; var b = a–;// b 的结果为 1,a 的结果为 0 |</p>
-<h4 id="2-相等和大小关系操作符"><a href="#2-相等和大小关系操作符" class="headerlink" title="2.相等和大小关系操作符"></a>2.相等和大小关系操作符</h4><p>下面是 Dart 支持的判断是否相等和大小关系的操作符：</p>
-<p>| 操作符 | 含义     | 例子            |<br>| —— | ——– | ————— |<br>| <code>==</code>   | 是否相等 | assert(2 == 2); |<br>| <code>!=</code>   | 不等于   | assert(2 != 3); |<br>| <code>&gt;</code>    | 大于     | assert(3 &gt; 2);  |<br>| <code>&lt;</code>    | 小于     | assert(2 &lt; 3);  |<br>| <code>&gt;=</code>   | 大于等于 | assert(3 &gt;= 3); |<br>| <code>&lt;=</code>   | 小于等于 | assert(3 &lt;= 3); |</p>
-<h4 id="3-类型判断操作符"><a href="#3-类型判断操作符" class="headerlink" title="3.类型判断操作符"></a>3.类型判断操作符</h4><p>下面是 Dart 支持的检查运行时类型的操作符：</p>
-<p>| 操作符 | 含义                                            | 例子                                                         |<br>| —— | ———————————————– | ———————————————————— |<br>| <code>as</code>   | 类型转换                                        | (emp as Person).firstName = ‘Bob’;                           |<br>| <code>is</code>   | 判断是否是某个类型,如果是的话，就返回 true      | if (emp is Person) { // 如果 emp 是 Person 类型 emp.firstName =’Bob’; } |<br>| <code>is!</code>  | 判断是否不是某个类型，如果不是的话，就返回 true | if (emp is! Person) { // 如果 emp 不是 Person 类型 }         |</p>
-<blockquote>
-<p>上面的例子中，如果 emp 是 null 的话，as 的例子就会抛异常，is 和 isn’t 的例子会返回 false.</p>
-</blockquote>
-<h4 id="4-赋值操作符"><a href="#4-赋值操作符" class="headerlink" title="4.赋值操作符"></a>4.赋值操作符</h4><p>赋值操作符是 <code>=</code>。</p>
-<p>如果只想当被赋值的变量为空的时候才赋值，可以使用<code>??=</code>,例如：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a,b;</span><br><span class="line">a = <span class="number">1</span>; <span class="comment">//使用 = 赋值</span></span><br><span class="line">b ??= <span class="number">1</span>; <span class="comment">// 当 b 是空的话才赋值，否则不会赋值</span></span><br></pre></td></tr></table></figure>
-<p><code>=</code> 还可以和其他操作符结合起来使用，例如:</p>
-<p>| <code>+=</code>  | <code>-=</code>  | <code>*=</code> | <code>/=</code> | <code>~/=</code> | <code>%=</code> |<br>| —– | —– | —- | —- | —– | —- |<br>| <code>&gt;&gt;=</code> | <code>&lt;&lt;=</code> | <code>^=</code> | <code>&amp;=</code> | <code>| =</code>   |</p>
-<p>这些组合起来的操作符，意思是先进行操作，然后在赋值，例如：</p>
-<p>| 组合操作符 | 例子                         |<br>| ———- | —————————- |<br>| <code>+=</code>       | a += b ; 就等效于 a = a + b; |</p>
-<h4 id="5-逻辑运算操作符"><a href="#5-逻辑运算操作符" class="headerlink" title="5.逻辑运算操作符"></a>5.逻辑运算操作符</h4><p>下面是 Dart 支持的逻辑运算操作符：</p>
-<p>| 操作符  | 含义                                       | 例子                                 |<br>| ——- | —————————————— | ———————————— |<br>| <code>!expr</code> | 反转表达式（将 false 改为 true，反之亦然） | !(2 == 3);// 结果为 true             |<br>| <code>|                                            |</code>                                    |<br>| <code>&amp;&amp;</code>    | 逻辑与                                     | （2 == 2）&amp;&amp; (3 == 3);// 结果为 true |</p>
-<h4 id="6-按位与移位运算符"><a href="#6-按位与移位运算符" class="headerlink" title="6.按位与移位运算符"></a>6.按位与移位运算符</h4><p>下面是 Dart 支持的按位与移位运算符：</p>
-<p>| 操作符  | 含义                                                         | 例子                                                         |<br>| ——- | ———————————————————— | ———————————————————— |<br>| <code>&amp;</code>     | 按位与 对于每一个比特位，只有两个操作数相应的比特位都是1时，结果才为1，否则为0。 | final value = 0x22; final bitmask = 0x0f; var result = value &amp; bitmask;//结果为 0x02 |<br>| <code>|</code>                                                            | 按位或，对于每一个比特位，当两个操作数相应的比特位至少有一个1时，结果为1，否则为0。 |<br>| <code>^</code>     | 按位异或，对于每一个比特位，当两个操作数相应的比特位有且只有一个1时，结果为1，否则为0。 | final value = 0x22; final bitmask = 0x0f; var result = value ^ bitmask;//结果为 0x2d |<br>| <code>~expr</code> | 按位非，反转操作数的比特位，即0变成1，1变成0。               | final value = 0x22; final bitmask = 0x0f; var result = value &amp; ~bitmask;//结果为 0x20 |<br>| <code>&lt;&lt;</code>    | 左移                                                         | final value = 0x22; final bitmask = 0x0f; var result = value &lt;&lt; 4;//结果为 0x220 |<br>| <code>&gt;&gt;</code>    | 右移                                                         | final bitmask = 0x0f; var result = value &gt;&gt; 4;//结果为 0x02  |</p>
-<h4 id="7-条件运算符"><a href="#7-条件运算符" class="headerlink" title="7.条件运算符"></a>7.条件运算符</h4><p>Dart 有两个运算符，可以让您使用更简单的表达式来代替可能需要 if-else 语句的表达式：</p>
-<ol>
-<li><p><code>condition ? expr1 : expr2</code></p>
-<p>如果 condition 是 true，返回 expr1，否则返回 expr2。</p>
-<p>当你需要根据一个 boolean 表达式来赋值时，可以使用 <code>? :</code>,例如：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> visibility = isPublic ? <span class="string">'public'</span> : <span class="string">'private'</span>;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><code>expr1 ?? expr2</code></p>
-<p>如果 expr1 为 null，就返回 expr2 的值，否则返回 expr1 的值。</p>
-<p>如果需要根据一个 boolean 表达式是否为 null 来作为条件，可以使用 <code>??</code>，例如：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">String</span> playerName(<span class="built_in">String</span> name) =&gt; name ?? <span class="string">'Guest'</span>;</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<h4 id="8-级联操作符"><a href="#8-级联操作符" class="headerlink" title="8.级联操作符"></a>8.级联操作符</h4><p>级联操作符是 <code>..</code>,允许你对同一对象进行一系列的操作。除了函数调用，您还可以访问同一对象上的字段。这通常可以为您节省创建临时变量的步骤，并允许您编写更多流畅的代码。</p>
-<p>例如：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">querySelector</span>(<span class="string">'#confirm'</span>) <span class="comment">// Get an object.</span></span><br><span class="line">  ..text = <span class="string">'Confirm'</span> <span class="comment">// Use its members.</span></span><br><span class="line">  ..classes.add(<span class="string">'important'</span>)</span><br><span class="line">  ..onClick.listen((e) =&gt; <span class="built_in">window</span>.alert(<span class="string">'Confirmed!'</span>));</span><br></pre></td></tr></table></figure>
-<p>querySelector() 返回一个 selector 对象，后面的 <code>..text</code>、<code>..classes</code>、<code>..onClick</code>就是在 selector 对象上进行的。</p>
-<h4 id="9-其他操作符"><a href="#9-其他操作符" class="headerlink" title="9.其他操作符"></a>9.其他操作符</h4><p>还有其他的操作符：</p>
-<p>| 操作符 | 含义                 | 例子                                                         |<br>| —— | ——————– | ———————————————————— |<br>| <code>()</code>   | 函数调用             | 代表函数调用                                                 |<br>| <code>[]</code>   | 访问列表             | 引用列表中指定索引处的值                                     |<br>| <code>.</code>    | 访问成员变量         | 访问表达式里的成员变量，例如 <code>foo.bar</code>,表示访问 <code>foo</code> 表达式里的 <code>bar</code> 成员变量 |<br>| <code>?.</code>   | 有条件的成员变量访问 | 很像 <code>.</code>，但是左边的表达式可以为 null，例如 <code>foo?.bar</code>，如果 foo 为 null，则不会抛异常，而是返回 null，如果 foo 不为 null，则可以返回 bar |</p>
-<p>在说一下 Dart 里很好用但容易搞混的几个操作符：<code>?.</code>、 <code>??</code> 、<code>??=</code></p>
-<ol>
-<li><p><code>?.</code></p>
-<p>想要访问表达式的某个属性时，就可以使用这个，可以有效避免 NPE。</p>
-<p>例如：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> yourName = user?.name;</span><br></pre></td></tr></table></figure>
-<p>就等效于：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> yourName;</span><br><span class="line"><span class="keyword">if</span>(user == <span class="keyword">null</span>)&#123;</span><br><span class="line">    yourName = <span class="keyword">null</span>;</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    yourName = user.name;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><code>??</code></p>
-<p>在赋值时，可以使用 <code>??</code>，若发现为空，可以为其赋默认值。 例如:</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> yourName = name ?? <span class="string">"Bob"</span>;</span><br></pre></td></tr></table></figure>
-<p>就是在为 yourName 赋值时，若 name 有值，就使用 name 的值，若 name 为空，则使用默认值 Bob，等效于：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> yourName;</span><br><span class="line"><span class="keyword">if</span>(name == <span class="keyword">null</span>)&#123;</span><br><span class="line">    yourName = <span class="string">"Bob"</span>;</span><br><span class="line">&#125;<span class="keyword">else</span>&#123;</span><br><span class="line">    yourName = name;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-</li>
-<li><p><code>??=</code></p>
-<p><code>expr1 ??= expr2</code> 等效于 <code>expr1 = expr1 ?? expr2</code> 就是判断 expr1 是否为null，如果为null的话，就使用默认值 expr2。 例如：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">user ??= User();</span><br></pre></td></tr></table></figure>
-<p>等效于：</p>
-<figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">if</span>(user == <span class="keyword">null</span>) &#123;</span><br><span class="line">    user = User();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
-</ol>
 </li>
 </ul>
 </li>
 </ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<pre><code>## Dart支持的数据类型
 
+Dart支持以下的数据类型:
+
+|          | 含义                                                         | 使用                                                         |
+| -------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| `int`    | 整数，范围为 -2^63 到 2^63 - 1.                              | int x = 1;//没有小数点就是int                                |
+| `double` | 浮点数，64位（双精度）浮点数                                 | double y = 1.1;//有小数点就是浮点数                          |
+| `num`    | num 是数字类型，既可以表示整数，也可以表示浮点数，具体看赋的值 | num x = 1;//num x是整数 num y = 1.1;//num y是浮点数          |
+| `String` | 字符串 Dart字符串采用UTF-16编码 可以使用单引号或双引号来创建字符串 | var s1 = &apos;string&apos;; var s2 = &quot;string&quot;;                        |
+| `bool`   | 布尔值                                                       | var isTrue = true;                                           |
+| `List`   | List E 表示 List 里的数据类型 用中括号来赋值                 | List list = [1, 2, 3];                                       |
+| `Set`    | Set E 表示 Set 里的数据类型 用大括号来赋值                   | Set halogens = {&apos;fluorine&apos;, &apos;chlorine&apos;, &apos;bromine&apos;, &apos;iodine&apos;, &apos;astatine&apos;}; |
+| `Map`    | Map&lt;K, V&gt; K 是 Key 的数据类型,V是 Value 的数据类型           | Map&lt;String,String&gt; gifts = { // Key: Value 格式 &apos;first&apos;: &apos;partridge&apos;, &apos;second&apos;: &apos;turtledoves&apos;, &apos;fifth&apos;: &apos;golden rings&apos;}; |
+| `Runes`  | 表示采用 UTF-32 的字符串，用于显示 Unicode 因为Dart字符串是UTF-16，因此在Dart中表示32位的Unicode值需要Runes这个特殊语法。 | Runes input = new Runes(&apos;\u{1f600}&apos;); print(new String.fromCharCodes(input)); 打印出来的是笑脸emoji：😆 |
+</code></pre>
       
 
       
@@ -418,7 +293,7 @@
 		<ul class="article-tag-list">
 			 
         		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">dart基础</a>
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">Dart基础</a>
         		</li>
       		
 		</ul>
@@ -617,7 +492,7 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color2">dart基础</a>
+                <a href="javascript:void(0)" class="js-tag color2">Dart基础</a>
               </li>
             
             <div class="clearfix"></div>
