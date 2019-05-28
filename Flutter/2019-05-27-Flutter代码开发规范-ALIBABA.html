@@ -8,18 +8,18 @@
   <link rel="dns-prefetch" href="http://yoursite.com">
   <title>Flutter代码开发规范-ALIBABA | Kris&#39;s blogs</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Flutter Go 代码开发规范 0.1.0 版代码风格标识符三种类型大驼峰类、枚举、typedef和类型参数">
+  <meta name="description" content="Flutter Go 代码开发规范 0.1.0 版代码风格">
 <meta name="keywords" content="Flutter开发规范">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Flutter代码开发规范-ALIBABA">
 <meta property="og:url" content="http://yoursite.com/Flutter/2019-05-27-Flutter代码开发规范-ALIBABA.html">
 <meta property="og:site_name" content="Kris&#39;s blogs">
-<meta property="og:description" content="Flutter Go 代码开发规范 0.1.0 版代码风格标识符三种类型大驼峰类、枚举、typedef和类型参数">
+<meta property="og:description" content="Flutter Go 代码开发规范 0.1.0 版代码风格">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-05-27T08:27:58.311Z">
+<meta property="og:updated_time" content="2019-05-28T05:08:10.862Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Flutter代码开发规范-ALIBABA">
-<meta name="twitter:description" content="Flutter Go 代码开发规范 0.1.0 版代码风格标识符三种类型大驼峰类、枚举、typedef和类型参数">
+<meta name="twitter:description" content="Flutter Go 代码开发规范 0.1.0 版代码风格">
   
     <link rel="alternative" href="/atom.xml" title="Kris&#39;s blogs" type="application/atom+xml">
   
@@ -161,8 +161,8 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="Flutter-Go-代码开发规范-0-1-0-版"><a href="#Flutter-Go-代码开发规范-0-1-0-版" class="headerlink" title="Flutter Go 代码开发规范 0.1.0 版"></a>Flutter Go 代码开发规范 0.1.0 版</h1><h2 id="代码风格"><a href="#代码风格" class="headerlink" title="代码风格"></a>代码风格</h2><h3 id="标识符三种类型"><a href="#标识符三种类型" class="headerlink" title="标识符三种类型"></a>标识符三种类型</h3><h4 id="大驼峰"><a href="#大驼峰" class="headerlink" title="大驼峰"></a>大驼峰</h4><p>类、枚举、typedef和类型参数</p>
-<a id="more"></a>
+        <h1 id="Flutter-Go-代码开发规范-0-1-0-版"><a href="#Flutter-Go-代码开发规范-0-1-0-版" class="headerlink" title="Flutter Go 代码开发规范 0.1.0 版"></a>Flutter Go 代码开发规范 0.1.0 版</h1><h2 id="代码风格"><a href="#代码风格" class="headerlink" title="代码风格"></a>代码风格</h2><a id="more"></a>
+<h3 id="标识符三种类型"><a href="#标识符三种类型" class="headerlink" title="标识符三种类型"></a>标识符三种类型</h3><h4 id="大驼峰"><a href="#大驼峰" class="headerlink" title="大驼峰"></a>大驼峰</h4><p>类、枚举、typedef和类型参数</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">SliderMenu</span> </span>&#123; ... &#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">HttpRequest</span> </span>&#123; ... &#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> Predicate = <span class="built_in">bool</span> <span class="built_in">Function</span>&lt;T&gt;(T value);</span><br></pre></td></tr></table></figure>
 <p>包括用于元数据注释的类</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Foo</span> </span>&#123;</span><br><span class="line">  <span class="keyword">const</span> Foo([arg]);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Foo</span>(anArg)</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">A</span> </span>&#123; ... &#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Foo</span>()</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">B</span> </span>&#123; ... &#125;</span><br></pre></td></tr></table></figure>
@@ -512,6 +512,10 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color2">Flutter开发规范</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">Dart基础语法</a>
               </li>
             
             <div class="clearfix"></div>
